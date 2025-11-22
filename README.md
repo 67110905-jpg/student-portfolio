@@ -1,17 +1,12 @@
 # Student Portfolio Web Application
 
-  โปรเจค Web Application แสดงข้อมูลนักศึกษาและความรู้เกี่ยวกับ Git และ Docker
+## 🌐 Live Demo
+**เว็บไซต์:** https://yourusername.github.io/student-portfolio
 
-  ## วิธีการรัน
+## 📦 สิ่งที่ส่ง
+1. **GitHub Repository**: https://github.com/yourusername/student-portfolio
+2. **Live Website (แทน Docker)**: https://yourusername.github.io/student-portfolio
 
-  ### รันด้วย Docker
-```bash
-  docker build -t student-portfolio .
-  docker run -d -p 8080:80 student-portfolio
-```
-
-  เปิดเบราว์เซอร์: http://localhost:8080
-
-  ## ข้อมูลนักศึกษา
-  - ชื่อ: [ซามูเอล แอล]
-  - รหัส: [6711xxxx]
+## หมายเหตุ
+โปรเจคนี้ host บน GitHub Pages แทนการใช้ Docker 
+เนื่องจากเครื่องไม่รองรับ Virtualization
